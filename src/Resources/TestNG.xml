@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="Extend View Full Test" >
+
+    <test name = "Creating a program">
+       <parameter name="username" value="megaonyx91@gmail.com" />
+       <parameter name="password" value="Stars89!" />
+        <classes>
+             <class name= "src.Test.MyWorkoutTest">
+
+             </class>
+
+            <class name= "src.Test.LoginTest">
+
+            </class>
+
+             <class name= "src.Test.CatalogTest">
+
+             </class>
+
+             <class name= "src.Test.CreatingAProgramTest">
+
+             </class>
+
+             <class name= "src.Test.MyWorkoutTest">
+
+             </class>
+
+             <class name= "src.Test.DashboardTest">
+
+             </class>
+
+            <class name= "src.Test.TeamPageTest">
+
+            </class>
+         </classes>
+    </test>
+</suite>
